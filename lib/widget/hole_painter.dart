@@ -38,7 +38,7 @@ class HolePainter extends CustomPainter {
 
     canvas.drawPath(transparentHole, Paint()..color = color);
     canvas.drawPath(
-        halfTransparentRing, Paint()..color = color.withOpacity(0.5));
+        halfTransparentRing, Paint()..color = color.withValues(alpha: 0.5));
   }
 
   @override
