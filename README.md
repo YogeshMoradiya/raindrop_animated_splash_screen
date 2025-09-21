@@ -5,10 +5,9 @@ Customize color, duration, and text, then navigate to your main app screen.
 ## ✨ Features
 
 ✅ Raindrop falling animation.  
-✅ Configurable color and text.  
+✅ Configurable color and textStyle.  
 ✅ Auto navigate to next screen.  
-✅ change background color.
-✅ Lightweight and easy to use.   
+✅ Lightweight and easy to use. 
 
 ---
 ## How to use it ?
