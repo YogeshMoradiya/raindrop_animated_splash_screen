@@ -3,7 +3,6 @@ import 'package:raindrop_animated_splash_screen/widget/animation_screen.dart';
 import 'package:raindrop_animated_splash_screen/widget/hole_painter.dart';
 import 'package:raindrop_animated_splash_screen/widget/staggered_raindrop_animation.dart';
 
-
 class RaindropSplashScreen extends StatefulWidget {
   const RaindropSplashScreen({
     super.key,
@@ -95,10 +94,11 @@ class _RaindropSplashScreenState extends State<RaindropSplashScreen>
                 opacity: _animation.textOpacity.value,
                 child: Text(
                   widget.title,
-                  style: widget.textStyle ?? TextStyle(
-                    color: Colors.white,
-                    fontSize: 20,
-                  ),
+                  style: widget.textStyle ??
+                      TextStyle(
+                        color: Colors.white,
+                        fontSize: 20,
+                      ),
                 ),
               ),
             ),
