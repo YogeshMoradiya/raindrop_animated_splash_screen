@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:raindrop_animated_splash_screen/raindrop_splash_screen/raindrop_splash_screen.dart';
+import 'package:raindrop_animated_splash_screen/raindrop_splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
