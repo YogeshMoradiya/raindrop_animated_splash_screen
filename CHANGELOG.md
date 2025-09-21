@@ -5,6 +5,11 @@ This project follows [Semantic Versioning](https://semver.org/).
 
 ---
 
+## [0.0.2]
+
+- Fixed minor bugs and improved performance.
+- Updated documentation for better clarity.
+
 ## [0.0.1]
 
 - Initial release of `Raindrop_animated_splash_screen`
